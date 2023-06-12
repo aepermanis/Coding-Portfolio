@@ -1,4 +1,5 @@
 
+/*creates variables to easily change the color scheme of the portfolio */
 :root{
     --header-color: rgb(0,128,128);
     --section-color: rgb(212,175,55);
@@ -6,6 +7,7 @@
     
 }
 
+/* implements the background image and changes the font from the basic style */
 body {
     
     background-image: url(new-york.jpg);
@@ -13,6 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* these elements align all the parts of the header and get the nav bar inline*/
 header {
     padding: 5px;
     box-sizing: border-box;
@@ -36,6 +39,7 @@ header li {
     padding: 5px;
 }
 
+/*helps indicate when a link is being hovered over */
 header li:hover{
     font-weight: bold;
     color: lightblue;
@@ -68,21 +72,23 @@ h2{
     opacity: 1;
 }
 
-/* adjusts the other photos throughout the document */
-img{
+/* adjusts the other photos in the project portion of the document */
+.example img{
     border-color: var(--img-border-color);
     border-width: 10px;
     border-style: double;
     border-radius: 15px;
-    width: 50%;
+    width: 200px;
+    height: 200px;
     opacity: 1;
 }
 
+/* lets projects more cleanly appear on page*/
 #projects li{
     display: flex
 }
 
-
+/* these two classes create an image and caption*/
 .example{
     display: inline-block;
     text-align: center;
@@ -93,6 +99,8 @@ img{
     display: block;
     font-size: larger;
 }
+
+/*increases size of space taken up and text size when a project is hovered over*/
 
 .example:hover{
     width: 100%;
