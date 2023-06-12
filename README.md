@@ -12,7 +12,7 @@ SO THAT they can review samples of my work and assess whether I am a good candid
 
 This project is a portfolio to be used to store coding 
 
-![alt text](assets/images/screenshot.png)
+![portfolio](assets/screenshot.png)
 
 ## Credits
 
