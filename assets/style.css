@@ -106,3 +106,10 @@ h2{
     width: 100%;
     font-size: xx-large;
 }
+
+/* better arranged information in the footer*/
+footer li {
+    display: inline-block;
+    margin: 20px;
+    font-size: larger;
+}
