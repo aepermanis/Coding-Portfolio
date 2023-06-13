@@ -14,6 +14,8 @@ This project is a portfolio to be used to store coding
 
 ![portfolio](assets/screenshot.png)
 
+![portfolio part 2](assets/screenshot2.png)
+
 ## Credits
 
 The photos in this portfolio are taken by me from my personal collection. 
